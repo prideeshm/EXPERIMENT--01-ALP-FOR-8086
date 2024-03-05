@@ -79,10 +79,15 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 org 100H
+
 mov AH,0A2H;
+
 mov BH,0B3H;
+
 add AH,BH;
+
 mov [1554H],AH;
+
 ret
 
 
