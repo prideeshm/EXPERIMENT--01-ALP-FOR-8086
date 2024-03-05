@@ -78,18 +78,14 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
 org 100H
-
 mov AH,0A2H;
-
 mov BH,0B3H;
-
 add AH,BH;
-
 mov [1554H],AH;
-
 ret
-
+```
 
 ## Output  
  ![add](https://github.com/prideeshm/EXPERIMENT--01-ALP-FOR-8086/assets/144870483/00afdc6d-2970-4e31-b144-ea957c56aeb9)
@@ -107,27 +103,33 @@ ret
 ![sub](https://github.com/prideeshm/EXPERIMENT--01-ALP-FOR-8086/assets/144870483/549545bd-b4e3-4da2-8c4b-f24d99827714)
 
 ## Multiplication alp 
+```
 org 100H
 mov AL,0C4H;
 mov BL,0B2H;
 mul BL;
 mov [1334H],AX;
 ret
+```
  ## Output  
 ![mul](https://github.com/prideeshm/EXPERIMENT--01-ALP-FOR-8086/assets/144870483/7143d472-7c80-475d-a6d1-798f7568afe5)
 
 
 ## Division alp 
+
+```
 org 100H
 mov AL,0D5H;
 mov BL,0A2H;
 div BL;
 mov [1364H],AX;
 ret
+```
 ## Output  
 ![div](https://github.com/prideeshm/EXPERIMENT--01-ALP-FOR-8086/assets/144870483/8ba094b2-bd6a-44bf-9088-fbec96bda98d)
 
 ## program for logical operations
+```
 org 100H
 MOV SI,0532H;
 MOV AX,0A32H;
@@ -146,6 +148,7 @@ MOV AX,0A32H;
 NOT AX;
 MOV [SI+6],AX;
 ret
+```
 ## output
 ![logical](https://github.com/prideeshm/EXPERIMENT--01-ALP-FOR-8086/assets/144870483/8a000bac-5c28-4385-a6f5-207d56e35e2b)
 
