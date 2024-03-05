@@ -95,12 +95,14 @@ ret
  ![add](https://github.com/prideeshm/EXPERIMENT--01-ALP-FOR-8086/assets/144870483/00afdc6d-2970-4e31-b144-ea957c56aeb9)
 
 ## Subtraction   of 8 bit numbers  ALP 
- org 100H
+``` 
+org 100H
 mov AH,0C4H;
 mov BH,0B2H;
 sub AH,BH;
 mov [1424h],AH;
 ret
+```
 ## Output 
 ![sub](https://github.com/prideeshm/EXPERIMENT--01-ALP-FOR-8086/assets/144870483/549545bd-b4e3-4da2-8c4b-f24d99827714)
 
