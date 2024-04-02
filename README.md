@@ -1,6 +1,6 @@
-# EXPERIMENT--01-ALP-FOR-8086
-## Name :prideesh M
-## Roll no :212223040154
+#### Name:Prideesh M
+#### Reg no:212223040154
+# EXPERIMENT-01 ALP FOR 8086
 ## Date of experiment :
 
 
