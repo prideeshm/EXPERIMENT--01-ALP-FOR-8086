@@ -1,11 +1,6 @@
 #### Name:Prideesh M
 #### Reg no:212223040154
 # EXPERIMENT-01 ALP FOR 8086
-## Date of experiment :
-
-
-
-
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
